@@ -1,0 +1,6 @@
+@Leck22_HostAddress = http://localhost:5128
+
+GET {{Leck22_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
