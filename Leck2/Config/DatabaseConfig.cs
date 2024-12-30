@@ -31,6 +31,7 @@ namespace Leck2.Config
         public static IServiceCollection AddRepositories(this IServiceCollection services)
         {
             services.AddScoped<ExampleRepository>();
+            services.AddScoped<ItemRepository>();
 
             return services;
         }
